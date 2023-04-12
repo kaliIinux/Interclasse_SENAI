@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    user-select: none;
 }
 
 body{
@@ -146,7 +147,7 @@ input {
     color: #ff0000;
 }
 
-#time {
+#horario {
     font-size: 20px;
 }
 
@@ -154,3 +155,9 @@ input {
     margin-bottom: 30px;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
